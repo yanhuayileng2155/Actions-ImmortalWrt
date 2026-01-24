@@ -37,6 +37,21 @@ fi
 
 echo "✅ DIY 脚本执行完成：qca9880 VAP 数量已修改为 24"
 # 请在下方输入自定义命令(一般用来安装第三方插件)(可以留空)
+# 首页和网络向导
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
+# 高级卸载 by YT Vedio Talk
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-uninstall"
+# 极光主题 by github eamonxg
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-theme-aurora"
+# 去广告adghome
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-adguardhome"
+# 代理相关
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-passwall-zh-cn"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-ssr-plus"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-passwall2"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-nikki-zh-cn"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-nekobox"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES momo luci-app-momo luci-i18n-momo-zh-cn"
 # Please enter the custom command below (usually used to install third-party plugins) (can be left blank)
 # git clone --depth=1 https://github.com/EOYOHOO/UA2F.git package/UA2F
 # git clone --depth=1 https://github.com/EOYOHOO/rkp-ipid.git package/rkp-ipid
