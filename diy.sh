@@ -38,9 +38,9 @@ fi
 echo "✅ DIY 脚本执行完成：qca9880 VAP 数量已修改为 24"
 # 请在下方输入自定义命令(一般用来安装第三方插件)(可以留空)
 # 首页和网络向导
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
 # 高级卸载 by YT Vedio Talk
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-uninstall"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-uninstall"
 # 极光主题 by github eamonxg
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-theme-aurora"
 # 去广告adghome
